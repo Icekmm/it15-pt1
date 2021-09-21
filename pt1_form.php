@@ -399,6 +399,9 @@
 
                         <form method = "post" action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
                           
+                                <label>Firstname : </label>
+                                <input type = "text" name ="firstname" >
+                                <br>
                                 <label>Username : </label>
                                 <input type = "text" name ="username" >
                                 <br>
